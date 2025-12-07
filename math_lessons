@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>מורה פרטי למתמטיקה וחשבון – ליווי אישי לתלמידי יסודי וחטיבה</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin:0;
+      font-family:'Rubik', sans-serif;
+      background:#f2f8ff;
+      color:#2e3a59;
+      padding:20px;
+    }
+
+    .container {
+      max-width:900px;
+      margin:0 auto;
+    }
+
+    /* Hero */
+    .hero {
+      background:linear-gradient(180deg,#cce8ff,#e8f4ff);
+      border-radius:18px;
+      padding:28px;
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+      box-shadow:0 4px 18px rgba(0,0,0,0.08);
+    }
+
+    .hero-title {
+      font-size:26px;
+      font-weight:700;
+      margin:0;
+      color:#1c3f7c;
+    }
+
+    .hero-sub {
+      color:#3e4d6d;
+      font-size:16px;
+      margin:0;
+    }
+
+    .btn {
+      display:inline-block;
+      background:#1c80ff;
+      color:white;
+      padding:10px 18px;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:600;
+      margin-top:10px;
+      transition:0.2s;
+    }
+    .btn:hover { background:#0069e6; }
+
+    /* Cards */
+    .card {
+      background:white;
+      padding:20px;
+      margin-top:20px;
+      border-radius:16px;
+      box-shadow:0 3px 12px rgba(0,0,0,0.06);
+    }
+
+    h2 {
+      margin-top:0;
+      font-size:20px;
+      color:#1c3f7c;
+    }
+
+    .about-item {
+      background:#eef6ff;
+      padding:10px 14px;
+      border-radius:10px;
+      margin-bottom:10px;
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+
+    .icon {
+      font-size:22px;
+    }
+
+    input, textarea {
+      width:100%;
+      padding:10px;
+      border:1px solid #d0d7e6;
+      border-radius:10px;
+      font-size:15px;
+    }
+
+    textarea { resize:none; }
+
+    .contact-actions {
+      display:flex;
+      gap:10px;
+      margin-top:12px;
+    }
+
+    .footer {
+      text-align:center;
+      margin-top:20px;
+      color:#6b7a9a;
+      font-size:14px;
+    }
+
+    @media (max-width:600px) {
+      .hero-title { font-size:22px; }
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1 class="hero-title">שיעורים פרטיים בחשבון ומתמטיקה</h1>
+    <p class="hero-sub">ליווי אישי, סבלני ומקצועי – לתלמידי יסודי וחטיבת ביניים</p>
+    <a class="btn" href="#contact">צור קשר</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="card">
+    <h2>קצת עליי</h2>
+
+    <div class="about-item">
+      <div class="icon">👨‍🏫</div>
+      <div>
+        <strong>אני בן 21</strong><br>
+        אוהב ללמד, סבלני, יודע להתחבר לילדים ונוער.
+      </div>
+    </div>
+
+    <div class="about-item">
+      <div class="icon">🎒</div>
+      <div>
+        <strong>ניסיון הדרכתי בתנועת נוער</strong><br>
+        הובלת קבוצות, עבודה צמודה עם ילדים ותלמידים.
+      </div>
+    </div>
+
+    <div class="about-item">
+      <div class="icon">🎖️</div>
+      <div>
+        <strong>קצין בצה“ל</strong><br>
+        אחריות, משמעת ויכולת הובלה – משתלב מצוין בהוראה.
+      </div>
+    </div>
+
+    <div class="about-item">
+      <div class="icon">📘</div>
+      <div>
+        <strong>בעל נקודות זכות אקדמיות</strong><br>
+        מביא עומק והבנה מתמטית שמאפשרים הסברה ברורה ומדויקת.
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT I TEACH -->
+  <section class="card">
+    <h2>מה אני מלמד?</h2>
+    <p>
+      אני מלמד <strong>כל הנושאים</strong> הנלמדים במתמטיקה וחשבון ביסודי ובחטיבת הביניים –  
+      בצורה ברורה, נעימה וצעד-אחר-צעד, כדי לחזק ביטחון והבנה אמיתית.
+    </p>
+
+    <div class="about-item">
+      <div class="icon">📚</div>
+      <div><strong>הכול פרונטלי</strong> – השיעורים מתבצעים פנים אל פנים, באווירה רגועה ובקצב אישי.</div>
+    </div>
+
+    <div class="about-item">
+      <div class="icon">🌟</div>
+      <div>פונה גם לתלמידים הזקוקים לחיזוק, וגם למצטיינים שרוצים להתקדם קדימה.</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+ <section class="card" id="contact">
+  <h2>צור קשר</h2>
+  <p>לחץ על הכפתור כדי להתקשר אליי ישירות ולהתחיל לשיעורים:</p>
+  <a class="btn" style="font-size:18px;padding:14px 20px;background:#4caf50;" href="tel:0538275617">
+    📞 התקשר עכשיו
+  </a>
+</section>
+
+  <div class="footer">
+    © 2025 – שיעורים פרטיים במתמטיקה וחשבון. כל הזכויות שמורות.
+  </div>
+
+</div>
+</body>
+</html>
